@@ -1,0 +1,81 @@
+h1 {
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	color: black;
+	font-size: 80px;
+}
+
+h2 {
+	font-family: 'Fredoka One', cursive;
+	color: black;
+	font-size: 30px
+}
+
+h3 {
+	font-family: 'Fredoka One', cursive;
+	color: black;
+}
+
+#BOXly {
+	margin-left: 460px;
+	margin-right: 460px;
+	width: 30%;
+}
+
+.navbar-inverse {
+    background-color: #00BFFF;
+}
+
+body {
+	background-color: #40E0D0;
+}
+
+ol {
+	font-family: 'Fredoka One', cursive;
+	color: black;
+	font-size: 30px;
+}
+
+.dance {
+	margin-left: 400px;
+	margin-right: 400px;
+}
+
+.stuff {
+	
+}
+
+.animals-center {
+	margin: 5em auto;
+	border-radius: 1em;
+	padding: 50px;
+	width: 800px;
+	background-color: #FFA500;
+}
+
+.animals-center > #animals {
+	width: 30%
+}
+
+.box-top10 {
+	width: 800px;
+	background-color: #FFA500;
+	margin: 5em auto;
+	padding: 50px;
+	border-radius: 1em;
+	text-align: center;
+}
+
+#animal-bild {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 6em;
+}
+
+.font-top10 {
+	font-family: 'Fredoka One', cursive;
+	color: black;
+	font-size: 30px;
+}
+

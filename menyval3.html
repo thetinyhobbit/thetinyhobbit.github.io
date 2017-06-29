@@ -1,0 +1,111 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>BOXly - Think Outside the Box</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+        <!-- I nav finns alla länkar eller knappar för navigering, tex en menyrad -->
+        <nav class="nav navbar-inverse navbar-static-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="bilder/BOXly.png" height="30"></a>
+
+                <ul class="nav navbar-nav">
+                    <!-- Listpunkterna här blir knappar för dina olika menyval i menyn -->
+                    <li><a href="menyval1.html"><img src="bilder/1minute2.png" height="30"></a></li>
+                    <li><a href="menyval2.html"><img src="bilder/Flash.png" height="30"></a></li>
+                    <li><a href="menyval3.html"><img src="bilder/top10.png" height="30"></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+
+    <h2>Welcome to Top 10, which includes anything from birds to cars!</h2>
+    <h2> </h2>
+
+    <div class=>
+    <h3>Top 5 Smartphones in the Market</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DtmGMcMeEJE" frameborder="0" allowfullscreen></iframe>
+    
+        <h4>Samsung Galaxy S8</h4>
+            <img id="phone-bild" src="bilder/phone1.png">
+        <h4>OnePlus 5</h4>
+            <img id="phone-bild" src="bilder/phone2.png">
+        <h4>iPhone 7 Plus</h4>
+            <img id="phone-bild" src="bilder/phone3.png">
+        <h4>HTC U11</h4>
+            <img id="phone-bild" src="bilder/phone4.png">
+        <h4>LG hG6</h4>
+            <img id="phone-bild" src="bilder/phone5.png">
+    
+    <p>
+        <a href=”https://www.stuff.tv/top-10/smartphones”>More info...</a>
+    </p>
+    </div>
+
+    <h2> </h2>
+
+
+    <div class="box-animals">
+        <h3>Top 10 extinct animals!</h3>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/2jUqRal-SFQ" frameborder="0" allowfullscreen></iframe>
+        <div class="font-top10">
+            <h4>1. Woolly Mammoth</h4>
+                <img id="animal-bild" src="bilder/animal1.jpg">
+            <h4>2. Thylacine</h4>
+                <img id="animal-bild" src="bilder/animal2.jpg">
+            <h4>3. Dodo</h4>
+                <img id="animal-bild" src="bilder/animal3.png">
+            <h4>4. Saber-Toothed Cat</h4>
+                <img id="animal-bild" src="bilder/animal4.jpg">
+            <h4>5. Quagga</h4>
+                <img id="animal-bild" src="bilder/animal5.jpg">
+            <h4>6. Elephant Bird</h4>
+                <img id="animal-bild" src="bilder/animal6.jpg">
+            <h4>7. Irish Elk</h4>
+                <img id="animal-bild" src="bilder/animal7.jpg">
+            <h4>8. Eurasian or European Cave Lion</h4>
+                <img id="animal-bild" src="bilder/animal8.jpg">
+            <h4>9. Baiji</h4>
+                <img id="animal-bild" src="bilder/animal9.jpg">
+            <h4>10. Ground Sloth</h4>
+                <img id="animal-bild" src="bilder/animal10.jpg">
+        </div> 
+    <p>
+        <a href=”https://onekindplanet.org/top-10/extinct/”>More info...</a>
+    </p>
+    <p> </p>
+    </div>
+
+    </main>
+</body>
+</html>
